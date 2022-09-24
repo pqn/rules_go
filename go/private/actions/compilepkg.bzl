@@ -160,4 +160,4 @@ def emit_compilepkg(
     )
 
 def _quote_opts(opts):
-    return " ".join([shell.quote(opt) if " " in opt else opt for opt in opts])
+    return " ".join([shell.quote(opt) for opt in opts])
